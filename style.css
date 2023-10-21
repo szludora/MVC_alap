@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.tartalom {
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 20%;
+    background-color: rgba(137, 240, 137, 0.452);
+    width: 25em;
+    padding-top: 20px;
+    border-radius: 30px;
+}
+
+.tartalom button {
+    background-color: rgb(104, 165, 104);
+    color: white;
+    text-align: center;
+    width: 40%;
+    height: 3em;
+    border: none;
+    border-radius: 14px;
+    margin: 20px;
+}
